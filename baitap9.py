@@ -1,12 +1,28 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Aug 25 15:44:50 2024
+Created on Sat Aug 31 15:59:44 2024
 
 @author: nguyentransonglam
 """
-import math
-a = float(input("Nhập giá trị a:"))
-b = float(input("Nhập giá trị b:"))
-A = (math.sqrt(a)-math.sqrt(b)) / ((math.pow(a, 1/4))-(math.pow(b, 1/4)))
-B = (math.sqrt(a)+(math.pow(a+b, 1/4))) / (math.pow(a, 1/4))+(math.pow(b, 1/4))
-print("Kết quả là ", A-B)
+
+print("============ MENU ============ ")
+print("1. Hu tieu")
+print("2. Chao long")
+print("3. Banh canh")
+print("4. Bun rieu")
+print("5. Pho bo")
+print("============================== ")
+chon_mon = input("Moi nhap lua chon: " )
+print("============================== ")
+if chon_mon == '1':
+    print("Ban chon hu tieu.")
+elif chon_mon == '2':
+    print("Ban chon chao long.")
+elif chon_mon == '3':
+    print("Ban chon banh canh.")
+elif chon_mon == '4':
+    print("Ban chon bun rieu.")
+elif chon_mon == '5':
+    print("Ban chon pho bo.")
+else:
+    print("Chon mon co trong menu.")

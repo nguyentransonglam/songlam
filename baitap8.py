@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Aug 25 15:34:26 2024
+Created on Sat Aug 31 15:50:30 2024
 
 @author: nguyentransonglam
 """
-A = (32 ** (0.2)) - ((1/64) ** (-0.25)) + ((8/27) ** (1/3))
-print("Kết quả là:", round(A,4))
+can_nang = float(input("Nhập vào số cân nặng là(kg): "))
+chieu_cao = float(input("Nhập vào chiều cao là(m): "))
+BMI = can_nang/(chieu_cao*chieu_cao)
+print("Số đo kiểm tra sức khỏe BMI là:", BMI)

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Aug 25 14:55:05 2024
+Created on Sat Aug 31 15:37:00 2024
 
 @author: nguyentransonglam
 """
-a = int(input("Nhập vào hệ số a: "))
-b = int(input("Nhập vào hệ số b: "))
-c = int(input("Nhập vào hệ số c: "))
-print(f"Phương trình bậc 2 là: {a}x^^2 + {b}x + {c} = 0")
+nam_sinh = int(input("Nhập năm sinh của bạn là: "))
+nam_hien_tai = int(input("Nhập năm hiện tại là: "))
+so_tuoi = nam_hien_tai - nam_sinh
+print(f"Bạn sinh năm {nam_hien_tai} vay ban {so_tuoi} tuổi.")
